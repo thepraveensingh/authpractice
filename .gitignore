@@ -1,0 +1,50 @@
+# Ignore node_modules directory (for Node.js projects)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.exe
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables files
+.env
+
+# Ignore build directories
+/build/
+/dist/
+/target/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Ignore dependency files
+package-lock.json
+yarn.lock
+
+# Ignore coverage reports
+/coverage/
+/.nyc_output/
+
+# Ignore generated documentation
+/doc/
+/docs/
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore custom sensitive files
+secrets.txt
